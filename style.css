@@ -1,0 +1,88 @@
+/* Estilo de la pagina*/
+
+body {font-family: 'Poppins', sans-serif;} /*Fuente de la pagina*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+h1 {
+    color: rgb(255, 255, 255); /*Color de la fuente*/
+    font-size: 70px;/*Tamañno de la fuente*/
+    text-align: center;/*Aliniacion del texto*/
+    
+}
+
+
+header{
+    /*background-color: rgb(0, 0, 0);/*Fondo del texto,contenedor, caja*/
+    text-anchor: middle;
+    color: rgb(255, 255, 255);    /*Color del texto*/
+    text-align: center; /*Aliniacion del texto*/
+}
+
+
+
+p {text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    /*background-color: rgb(0, 0, 0);*/
+}
+
+footer {
+    display: flex; /*manipulibilidad de la caja, entendemos por display contenedor, la totalidad de la cosa*/
+    flex-direction: row;/*Direccion del contenido, horizontal, vertical*/
+    justify-content: space-around;/*Espacio entre cajas, contenido, display*/
+
+}
+
+a {
+    text-decoration: none; /*Muy util, para editar el estilo de nuestros hipervinculos*/
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+
+ul { 
+    border-image: 10px }/*Para darle un poco de circunferencia a la imagen, tarjeta etc*/
+
+
+.card {
+background-color: rgb(0, 0, 0);
+-webkit-text-stroke-width: 0%;
+display:center;
+justify-content: right;
+border-radius: 200px;
+margin-bottom: 0px;
+padding: 10px ;
+} 
+
+li {text-decoration: none    ;
+list-style: none;
+padding: 10px;}
+
+.div {
+    -webkit-text-stroke-width: 0%;
+display:center;
+justify-content: right;
+border-radius: 200px;
+ }
+
+ body {
+    /*background-color: rgb(0, 0, 0);/*Fondo del texto,contenedor, caja*/
+    text-anchor: middle;
+    color: rgb(255, 255, 255);    /*Color del texto*/
+    text-align: center; /*Aliniacion del texto*/
+}
+
+.hover {text-decoration: overline
+    }
+
+.boton {border-radius: 15px; }
+
+.campete {text-align: center;}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(181, 14, 134);
+    padding: 10px;
+}
